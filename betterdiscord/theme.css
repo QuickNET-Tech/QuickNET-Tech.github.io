@@ -109,6 +109,18 @@
   background-color: magenta;
 }
 
+/* Recolor new message divider */
+#---new-messages-bar {
+  border-color: #FF00FF
+}
+#---new-messages-bar > span {
+  background-color: #FF00FF
+}
+#---new-messages-bar > span > svg > path {
+  color: #FF00FF !important;
+  fill: #FF00FF !important;
+}
+
 /*
 |=============================================================================================================
 | Hide Shit

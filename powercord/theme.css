@@ -116,17 +116,18 @@
 
 /* Recolor new message divider */
 #---new-messages-bar {
-  border-color: #FF00FF
+  border-color: #FF99FF
 }
 #---new-messages-bar > span {
-  background-color: #FF00FF
+  background-color: #FF99FF;
+  color: #000000;
 }
 #---new-messages-bar > span > svg > path {
-  color: #FF00FF !important;
-  fill: #FF00FF !important;
+  color: #FF99FF !important;
+  fill: #FF99FF !important;
 }
 #---new-messages-bar > span.content-1o0f9g {
-  color: #FFFFFF;
+  color: #000000 !important;
 }
 
 /* Brighten spoiler boxes */
@@ -141,7 +142,7 @@
 
 /* Restore pink to booster badge */
 .premiumIcon-1rDbWQ.icon-1A2_vz {
-  color: #ff73fa !important;
+  color: #FF73FA !important;
 }
 .profileBadge-2niAfJ[src="/assets/4a2618502278029ce88adeea179ed435.svg"] {
   object-position: 0 !important;

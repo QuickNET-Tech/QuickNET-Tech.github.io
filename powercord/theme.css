@@ -140,7 +140,7 @@
   background: #181818;
 }
 
-/* Restore pink to booster badge */
+/* Restore pink to booster badges */
 .premiumIcon-1rDbWQ.icon-1A2_vz {
   color: #FF73FA !important;
 }
@@ -218,8 +218,8 @@
   }
 }
 
-/* Replace default banners with pride banners */
-[class^="banner"] {
+/* Replace Default Banners With Pride Banners */
+.banner-2QYc2d {
   background: url('https://i.imgur.com/D2fsL3a.png');
   background-repeat: no-repeat;
   background-position: 50%;

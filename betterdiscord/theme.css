@@ -134,6 +134,17 @@
   background: #181818;
 }
 
+/* Restore pink to booster badge */
+.premiumIcon-1rDbWQ.icon-1A2_vz {
+  color: #FF73FA !important;
+}
+.profileBadge-2niAfJ[src="/assets/4a2618502278029ce88adeea179ed435.svg"] {
+  object-position: 0 !important;
+}
+.profileBadge-2niAfJ[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"] {
+  object-position: 0 !important;
+}
+
 /*
 |=============================================================================================================
 | Hide Shit

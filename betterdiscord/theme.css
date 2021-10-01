@@ -173,12 +173,12 @@
 }
 
 /* Hide sticker button */
-.buttons-3JBrkn > div:nth-child(3) > button {
+[aria-label="Open sticker picker"] {
   display: none;
 }
 
 /* Hide gift button */
-.buttons-3JBrkn > button {
+[aria-label="Send a gift"] {
   display: none;
 }
 

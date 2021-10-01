@@ -188,7 +188,7 @@
 }
 
 /* Hide sticker prompt in new DM */
-[class^="containerExpanded"] {
+.containerCompact-18xElE {
   display: none;
 }
 

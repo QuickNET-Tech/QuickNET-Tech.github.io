@@ -192,6 +192,14 @@
   display: none;
 }
 
+/* Hide role icons next to names and fix spacing */
+.roleIcon-1_1CJy.roleIcon-6hK8aK {
+  display: none !important;
+}
+.headerText-3Uvj1Y.hasRoleIcon-1p-fAR {
+  margin-right: .25rem !important;
+}
+
 /*
 |=============================================================================================================
 | Misc Edits

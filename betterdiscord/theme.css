@@ -89,22 +89,12 @@
   background-color: magenta;
 }
 
-/* Recolor "Add A Server" button */
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
+/* Recolor "Add A Server" and "Explore Public Servers" buttons */
+.circleIconButton-1XqULR.circleButtonBase-33sh5_ {
   color: magenta;
   background-color: #151515;
 }
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
-  color: #FFFFFF;
-  background-color: magenta;
-}
-
-/* Recolor "Explore Public Servers" button */
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ {
-  color: magenta;
-  background-color: #151515;
-}
-.circleIconButton-1QV--U.circleButtonBase-2DCxIZ.selected-1JjBPm {
+.circleIconButton-1XqULR.circleButtonBase-33sh5_.selected-2jcQaY {
   color: white;
   background-color: magenta;
 }

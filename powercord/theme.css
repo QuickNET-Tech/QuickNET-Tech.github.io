@@ -94,22 +94,12 @@
   background-color: magenta;
 }
 
-/* Recolor "Add A Server" button */
-[aria-label="Add a Server"] {
+/* Recolor "Add A Server" and "Explore Public Servers" buttons */
+.circleIconButton-hZmpE8 {
   color: magenta;
   background-color: #151515;
 }
-[aria-label="Add a Server"].selected-1JjBPm {
-  color: #FFFFFF;
-  background-color: magenta;
-}
-
-/* Recolor "Explore Public Servers" button */
-[aria-label="Explore Public Servers"] {
-  color: magenta;
-  background-color: #151515;
-}
-[aria-label="Explore Public Servers"].selected-1JjBPm {
+.circleIconButton-hZmpE8.selected-3mFF3I {
   color: white;
   background-color: magenta;
 }

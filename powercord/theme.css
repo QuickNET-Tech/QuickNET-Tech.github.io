@@ -69,24 +69,29 @@
   --spotify-color: #FF99FF !important;
 }
 
-/* transparent magenta folder background on hover */
-.expandedFolderIconWrapper-Huv7rA:hover {
+/* Brighten expanded folder background */
+.expandedFolderIconWrapper-3fmTfW {
+  background-color: #202020;
+}
+
+/* Transparent magenta folder background on hover */
+.expandedFolderIconWrapper-3fmTfW:hover {
   background-color: #FF00FF66;
 }
 
-/* transparent magenta folder background on hover */
-.expandedFolderIconWrapper-Huv7rA {
-  background-color: #202020;
+/* Recolor folder icons */
+.expandedFolderIconWrapper-3fmTfW > svg {
+  color: magenta !important;
+}
+
+/* Recolor closed folder background color */
+.folderIconWrapper-1Ml_1q {
+  background-color: #FF00FF66 !important;
 }
 
 /* brighten day divider */
 .divider-3_HH5L {
   background-color: #202020;
-}
-
-/* brighten expanded folder background */
-.expandedFolderBackground-1cujaW {
-  background-color: #151515;
 }
 
 /* Recolor close button hover */

@@ -100,11 +100,11 @@
 }
 
 /* Recolor "Add A Server" and "Explore Public Servers" buttons */
-.circleIconButton-1XqULR {
+[class^='circleIconButton-'] {
   color: magenta;
   background-color: #151515;
 }
-.circleIconButton-1XqULR.selected-2jcQaY {
+[class^='circleIconButton-'].selected-3mFF3I {
   color: white;
   background-color: magenta;
 }
@@ -164,11 +164,6 @@
 
 /* Hide stage discovery in home page */
 #private-channels-1 {
-  display: none;
-}
-
-/* Hide nitro in home page */
-#private-channels-2 {
   display: none;
 }
 

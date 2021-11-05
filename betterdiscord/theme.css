@@ -157,13 +157,8 @@
   display: none;
 }
 
-/* Hide Stage Discovery In Home Page */
-#private-channels-1 {
-  display: none;
-}
-
 /* Hide Nitro In Home Page */
-#private-channels-2 {
+#private-channels-1 {
   display: none;
 }
 

@@ -65,22 +65,22 @@
 */
 
 /* Brighten expanded folder background */
-.expandedFolderIconWrapper-3fmTfW {
+.expandedFolderIconWrapper-3RwQpD {
   background-color: #202020;
 }
 
 /* Transparent magenta folder background on hover */
-.expandedFolderIconWrapper-3fmTfW:hover {
+.expandedFolderIconWrapper-3RwQpD:hover {
   background-color: #FF00FF66;
 }
 
 /* Recolor folder icons */
-.expandedFolderIconWrapper-3fmTfW > svg {
+.expandedFolderIconWrapper-3RwQpD > svg {
   color: magenta !important;
 }
 
 /* Recolor closed folder background color */
-.folderIconWrapper-1Ml_1q {
+.folderIconWrapper-1oRIZr {
   background-color: #FF00FF66 !important;
 }
 
@@ -99,7 +99,7 @@
   color: magenta;
   background-color: #151515;
 }
-[class^='circleIconButton-'].selected-3mFF3I {
+[class^='circleIconButton-'].selected-2r1Hvo {
   color: white;
   background-color: magenta;
 }

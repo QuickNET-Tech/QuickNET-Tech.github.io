@@ -214,21 +214,6 @@
 |=============================================================================================================
 */
 
-/* Rainbow someone's name */
-/*[data-author-id=""] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y .username-1A8OIy {
-  background-image: linear-gradient(to right, #FF6663, #FEB144, #FDFD97, #9EE09E, #9EC1CF, #A05BFD, #CC99C9, #FF6663); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
-  animation: move 2000s linear infinite;
-}
-
-@keyframes move {
-  to {
-    background-position: 26000px;
-  }
-}*/
-
 /* Replace default banners with pride banners */
 .banner-2QYc2d {
   background: url('https://i.imgur.com/D2fsL3a.png');

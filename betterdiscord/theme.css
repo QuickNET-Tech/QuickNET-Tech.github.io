@@ -190,6 +190,11 @@
   margin-right: .25rem !important;
 }
 
+/* Hide "I'm new here, say hi!" icon next to member names */
+.newMemberBadge-3PdStX {
+  display: none !important;
+}
+
 /*
 |=============================================================================================================
 | Misc Edits

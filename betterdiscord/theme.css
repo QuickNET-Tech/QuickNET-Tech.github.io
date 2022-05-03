@@ -172,6 +172,11 @@
   display: none;
 }
 
+/* Hide activity button */
+[aria-label="Start an Activity"] {
+  display: none;
+}
+
 /* Hide welcome sticker prompt on user join message */
 [class^="welcomeCTA"] {
   display: none;

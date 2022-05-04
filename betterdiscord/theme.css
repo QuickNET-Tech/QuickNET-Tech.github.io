@@ -162,6 +162,11 @@
   display: none;
 }
 
+/* Hide sticker button */
+[aria-label="Open sticker picker"] {
+  display: none;
+}
+
 /* Hide gift button */
 [aria-label="Send a gift"] {
   display: none;

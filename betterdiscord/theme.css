@@ -38,9 +38,9 @@
   --font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* General Font */
   --settingsicons: 1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
   
-  --accentcolor:            255,   0, 255; /* Blurple ............... default: 114, 137, 218 - hex: #7289DA */
+  --accentcolor:            255, 119, 255; /* Blurple ............... default: 114, 137, 218 - hex: #7289DA */
   --accentcolor2:            60,  60,  60; /* Boostpink ............. default: 255, 115, 250 - hex: #FF73FA */
-  --linkcolor:              255,   0, 255; /* Link Color ............ default:   0, 176, 244 - hex: #00B0F4 */
+  --linkcolor:              255, 119, 255; /* Link Color ............ default:   0, 176, 244 - hex: #00B0F4 */
   --mentioncolor:           250, 166, 250; /* Highlight ............. default: 250, 166,  26 - hex: #FAA61A */
   
   --textbrightest:          255, 255, 255; /* Text Color 1 .......... default: 255, 255, 255 - hex: #FFFFFF */
@@ -61,60 +61,78 @@
 /*
 |=============================================================================================================
 | Additional Recoloring
-|=====================================================================================================#========
+|=============================================================================================================
 */
+
+/* Recolor search */
+.container-2McqkF {
+  background-color: #151515;
+}
+.queryContainer-ZunrLZ {
+  background-color: #101010;
+}
+
+/*  */
+.autocomplete-3NRXG8 {
+  background-color: #151515 !important;
+}
+
+/* Recolor powercord spotify integration */
+:root {
+  --spotify-color: #FF77FF !important;
+}
 
 /* Brighten expanded folder background */
 .expandedFolderIconWrapper-3RwQpD {
   background-color: #202020;
 }
 
-/* Transparent magenta folder background on hover */
+/* Transparent #FF77FF folder background on hover */
 .expandedFolderIconWrapper-3RwQpD:hover {
-  background-color: #FF00FF66;
+  background-color: #FF77FF66;
 }
 
 /* Recolor folder icons */
 .expandedFolderIconWrapper-3RwQpD > svg {
-  color: magenta !important;
+  color: #FF77FF !important;
 }
 
 /* Recolor closed folder background color */
 .folderIconWrapper-1oRIZr {
-  background-color: #FF00FF66 !important;
+  background-color: #FF77FF66 !important;
 }
 
-/* Brighten day divider */
+/* brighten day divider */
 .divider-3_HH5L {
   background-color: #202020;
 }
 
 /* Recolor close button hover */
 [aria-label="Close"]:hover {
-  background-color: magenta;
+  background-color: #FF77FF;
 }
 
 /* Recolor "Add A Server" and "Explore Public Servers" buttons */
 [class^='circleIconButton-'] {
-  color: magenta;
+  color: #FF77FF;
   background-color: #151515;
 }
 [class^='circleIconButton-'].selected-2r1Hvo {
-  color: white;
-  background-color: magenta;
+  color: #000000;
+  background-color: #FF77FF;
 }
 
 /* Recolor new message divider */
 #---new-messages-bar {
-  border-color: #FF99FF
+  border-color: #FF77FF
 }
 #---new-messages-bar > span {
-  background-color: #FF99FF;
+  background-color: #FF77FF;
   color: #000000;
 }
 #---new-messages-bar > span > svg > path {
-  color: #FF99FF !important;
-  fill: #FF99FF !important;
+  color: #FF77FF !important;
+  fill: #FF77FF !important;
 }
 #---new-messages-bar > span.content-1o0f9g {
   color: #000000 !important;
@@ -130,7 +148,7 @@
   background: #181818;
 }
 
-/* Restore pink to booster badges */
+/* Restore og pink to booster badges */
 .premiumIcon-1rDbWQ.icon-1A2_vz {
   color: #FF73FA !important;
 }
@@ -139,83 +157,4 @@
 }
 .profileBadge-2niAfJ[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"] {
   object-position: 0 !important;
-}
-
-/*
-|=============================================================================================================
-| Hide Shit
-|=============================================================================================================
-*/
-
-/* Hide sticker picker Tab */
-#sticker-picker-tab {
-  display: none;
-}
-
-/* Hide BD/Twitch emote picker tab */
-#bd-emotes-tab {
-  display: none;
-}
-
-/* Hide nitro in home page */
-#private-channels-1 {
-  display: none;
-}
-
-/* Hide sticker button */
-[aria-label="Open sticker picker"] {
-  display: none;
-}
-
-/* Hide gift button */
-[aria-label="Send a gift"] {
-  display: none;
-}
-
-/* Hide activity button */
-[aria-label="Start an Activity"] {
-  display: none;
-}
-
-/* Hide welcome sticker prompt on user join message */
-[class^="welcomeCTA"] {
-  display: none;
-}
-
-/* Hide sticker prompt in new DM */
-.containerCompact-18xElE {
-  display: none;
-}
-
-/* Hide role icons next to names and fix spacing */
-.roleIcon-1_1CJy.roleIcon-6hK8aK {
-  display: none !important;
-}
-.headerText-3Uvj1Y.hasRoleIcon-1p-fAR {
-  margin-right: .25rem !important;
-}
-
-/* Hide "I'm new here, say hi!" icon next to member names */
-.newMemberBadge-3PdStX {
-  display: none !important;
-}
-
-/*
-|=============================================================================================================
-| Misc Edits
-|=============================================================================================================
-*/
-
-/* Replace default banners with pride banners */
-.banner-2QYc2d {
-  background: url('https://i.imgur.com/D2fsL3a.png');
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
-}
-
-/* Make stickers emote sized (credit: Sainan) */
-[class^="assetWrapper"][style="height: 160px; width: 160px;"] {
-  height: 48px !important;
-  width: 48px !important;
 }
